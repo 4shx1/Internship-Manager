@@ -1,0 +1,62 @@
+/* companyInfo.module.css */
+
+.container {
+    display: flex;
+}
+
+.company-details {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.header {
+    height: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px gray solid;
+}
+
+.heading {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info {
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.table-container {
+    display: flex;
+    /* Add this to create a flex container */
+    flex-direction: column;
+    /* Stack elements vertically */
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px gray solid;
+    flex: 1;
+    height: 300px;
+    /* Subtract the header's padding */
+    overflow: auto;
+    /* Enable scrolling when content overflows */
+}
+
+.table-container table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}

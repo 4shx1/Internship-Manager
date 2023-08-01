@@ -1,0 +1,129 @@
+.navbar {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    padding-bottom: 0%;
+}
+
+
+.navbarLogo {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.navbarLinks {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbarLinks li {
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.navbarLinks li:last-child {
+    margin-right: 0;
+}
+
+.navbarLinks a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbarLink {
+    /* Styles for the navbar links */
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbarLink:hover {
+    background-color: #f2f2f2;
+}
+
+
+.navbarButton {
+    /* Styles for the buttons */
+    /* Modify or add additional styles as needed */
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: solid 1px #01B399;
+    background-color: #f2f2f2;
+    color: #01B399;
+    cursor: pointer;
+}
+
+.navbarButtonPrimary {
+    /* Styles for the buttons */
+    /* Modify or add additional styles as needed */
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+    background-color: #01B399;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.navbarButton:hover {
+    background-color: #e5e5e5;
+}
+
+.navbarButtonPrimary:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #01B399;
+
+}
+
+/* Add styles for the modal content */
+.modalContent {
+    width: fit-content;
+    height: 800px;
+    position: relative;
+    /* Adjust the width as desired */
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+/* Add styles for the modal overlay */
+.modalOverlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Add styles for the modal container */
+.modalContainer {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* Add styles for the modal card */
+.modalCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.closeButton {
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

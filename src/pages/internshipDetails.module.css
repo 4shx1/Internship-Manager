@@ -1,0 +1,155 @@
+/* internshipDetails.module.css */
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #01b399;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #01b399 0%, #2989d8 47%, #207cca 66%, #02e59d 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #01b399 0%, #2989d8 47%, #207cca 66%, #02e59d 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #01b399 0%, #2989d8 47%, #207cca 66%, #02e59d 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#01b399', endColorstr='#02e59d', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.internshipDetailsCard {
+    margin-top: 50px;
+    width: 70%;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(1, 179, 153, 0.3);
+}
+
+.detailsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* Added property */
+    justify-content: space-between;
+    margin-top: 20px;
+    max-width: 90%;
+}
+
+.h2 {
+    margin-bottom: 10px;
+}
+
+.h6 {
+    margin-top: 0;
+    color: #888;
+}
+
+.id {
+    font-weight: bold;
+}
+
+.detailsContainer>div {
+    flex: 1;
+    /* Added property */
+    width: 45%;
+    /* Adjusted width */
+}
+
+.reviewCard {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(1, 179, 153, 0.3);
+}
+
+.internshipContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.internshipCard {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(1, 179, 153, 0.3);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dummyCard {
+    margin: 30px auto;
+    margin-bottom: 30px;
+    width: 70%;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.internshipCard h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.internshipCard p {
+    margin: 0;
+    color: #888;
+}
+
+.certi img {
+    margin-left: 25%;
+    height: auto;
+    width: 50%;
+}
+
+.bubblesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bubble {
+    display: flex;
+    align-items: center;
+    background-color: #01B399;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.bubble p {
+    margin: 0;
+    white-space: nowrap;
+    color: #fff;
+}
+
+.styles_h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.styles_h4 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.styles_ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.styles_li {
+    margin-bottom: 5px;
+}
+
+.styles_p {
+    margin-bottom: 10px;
+}

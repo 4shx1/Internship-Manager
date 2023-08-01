@@ -1,0 +1,64 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background: #01b399;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #01b399 0%, #2989d8 47%, #207cca 66%, #02e59d 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #01b399 0%, #2989d8 47%, #207cca 66%, #02e59d 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #01b399 0%, #2989d8 47%, #207cca 66%, #02e59d 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#01b399', endColorstr='#02e59d', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.internshipDetailsCard {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    height: fit-content;
+    /* Set a maximum height for the card */
+    overflow-y: auto;
+    /* Enable vertical scrolling if content exceeds the card's height */
+}
+
+.h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.center {
+    text-align: left;
+}
+
+.h6 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.id {
+    font-size: 14px;
+    font-weight: 500;
+    color: #4a4a4a;
+}
+
+p {
+    font-weight: 400;
+    color: #4a4a4a;
+}
+
+.label {
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: black;
+}
+
+/* Add any additional styling as needed */

@@ -1,0 +1,83 @@
+.home-container {
+    background-image: url('../images/home.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.search {
+    margin-top: 20px;
+    width: 600px;
+}
+
+.title {
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+}
+.title2 {
+    margin-top: 20px;
+    font-size: 32px;
+    color: #01B399;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 30px;
+    color: white;
+}
+
+.stats p{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.banner {
+    margin-top: 20px;
+    overflow: hidden;
+    height: 50px;
+}
+
+.company-banner {
+    list-style: none;
+    display: flex;
+    animation: banner-scroll 15s linear infinite;
+}
+
+@keyframes banner-scroll {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.company-banner li {
+    margin-right: 30px;
+    white-space: nowrap;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+
+/* Add the following styles to your home.module.css */
+
+.scrollContainer {
+    max-height: 400px;
+    /* Adjust the height as needed */
+    overflow-y: auto;
+}
+
+.scrollWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Other existing styles... */

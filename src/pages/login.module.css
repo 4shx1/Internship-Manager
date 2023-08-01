@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 350px;
+    background-color: none;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.loginForm button {
+    padding: 8px 12px;
+    background-color: #01B399;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.loginForm button:hover {
+    background-color: #0056b3;
+}

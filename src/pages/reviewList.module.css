@@ -1,0 +1,36 @@
+/* reviewList.module.css */
+
+.reviewList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.reviewItem {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.user {
+    font-weight: bold;
+}
+
+.comment {
+    margin-top: 5px;
+}
+
+.starRating {
+    color: #ccc;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.filled {
+    color: gold;
+}
+
+.empty {
+    color: #ccc;
+}

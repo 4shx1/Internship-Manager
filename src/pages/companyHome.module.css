@@ -1,0 +1,26 @@
+/* CompanyHome.module.css */
+.container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centeredHeading {
+    text-align: center;
+    font-size: medium;
+}
+
+.highlightButton {
+    background-color: white;
+    color: #01B399;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.highlightButton:hover {
+    text-decoration: underline;
+}

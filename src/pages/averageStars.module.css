@@ -1,0 +1,23 @@
+/* averageStars.module.css */
+
+.averageStars {
+    margin-bottom: 20px;
+}
+
+.averageRating {
+    font-weight: bold;
+}
+
+.starRating {
+    color: #ccc;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.filled {
+    color: gold;
+}
+
+.empty {
+    color: #ccc;
+}
